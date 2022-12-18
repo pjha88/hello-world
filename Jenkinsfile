@@ -3,7 +3,8 @@ pipeline {
     stages {
       stage('Checkout') {
         steps {
-          sh 'echo "this is checkout stage"'
+          sh 'echo "this is checkout stage"
+          ls'
         }
       }
         stage('Build') {
